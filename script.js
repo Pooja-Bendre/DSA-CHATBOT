@@ -12,7 +12,7 @@ const themeToggleBtn = document.querySelector("#theme-toggle-btn");
 const sendBtn = document.getElementById("send-btn");
 const voiceBtn = document.getElementById("voice-btn");
 
-const API_KEY = 'AIzaSyCqYTM1P4o214efV_4WvwEzo2OlXt87lrk';
+const API_KEY = '[add your own api key]';
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 
 let chatHistory = [];
