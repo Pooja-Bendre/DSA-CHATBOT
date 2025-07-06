@@ -8,12 +8,24 @@ DSA Sensei is an AI-powered chatbot designed to help you master Data Structures 
 
 # Some SnapShots : 
 
+![image alt](https://github.com/Pooja-Bendre/DSA-CHATBOT/blob/dcde7c3bf1f607eb39e027997c02954fb3019065/1.jpg)
+
+![image alt](https://github.com/Pooja-Bendre/DSA-CHATBOT/blob/dcde7c3bf1f607eb39e027997c02954fb3019065/2.jpg)
+
+![image alt](https://github.com/Pooja-Bendre/DSA-CHATBOT/blob/dcde7c3bf1f607eb39e027997c02954fb3019065/3.jpg)
+
+![image alt](https://github.com/Pooja-Bendre/DSA-CHATBOT/blob/dcde7c3bf1f607eb39e027997c02954fb3019065/4.jpg)
+
+![image alt](https://github.com/Pooja-Bendre/DSA-CHATBOT/blob/dcde7c3bf1f607eb39e027997c02954fb3019065/5.jpg)
+
+
 
 # Tech Stack 🛠
 
 - Frontend: HTML5, CSS3 .
 - Backend: JavaScript
 - AI Model: Gemini API Flash-2.0
+- NOTE : USER YOUR OWN API KEY !
 
 # Features 🎉
 
