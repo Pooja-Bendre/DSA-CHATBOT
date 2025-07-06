@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DSA Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Material Icons for file icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="app-header">
+            <img src="chatbot.png" class="header-avatar" id="header-avatar" alt="Bot Avatar">
+            <div class="header-titles">
+                <div class="heading">DSA Sensei</div>
+                <div class="sub-heading">Ask Your DSA/programming questions here!</div>
+            </div>
+            <button id="theme-toggle-btn" class="material-icons">dark_mode</button>
+            <button id="download-chats-btn" title="Download chat" class="material-icons">download</button>
+            <button id="delete-chats-btn" title="Clear chat" class="material-icons">delete</button>
+        </header>
+        <div class="chats-container"></div>
+        <form class="prompt-form">
+            <div class="file-upload-wrapper">
+                <img class="file-preview" src="#" alt="Preview" style="display:none;max-width:60px;max-height:60px;border-radius:8px;">
+                <button type="button" id="add-file-btn" class="material-icons" title="Attach file">attach_file</button>
+                <input type="file" id="file-input" style="display:none" accept="image/*,.pdf,.txt,.doc,.docx">
+                <button type="button" id="cancel-file-btn" class="material-icons" title="Remove file">close</button>
+            </div>
+            <input type="text" class="prompt-input" placeholder="Type your DSA question..." autocomplete="off">
+            <button type="button" id="voice-btn" class="material-icons" title="Voice input">mic</button>
+            <button type="submit" id="send-btn" class="material-icons" title="Send">send</button>
+        </form>
+    </div>
+    <button id="scroll-down-btn" title="Scroll to latest" style="display:none;position:fixed;bottom:20px;right:20px;z-index:10;">⬇️</button>
+    <script src="script.js"></script>
+</body>
+</html>
